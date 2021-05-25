@@ -1,0 +1,26 @@
+body {
+    font-family: "Helvetica Neue",
+      Arial,
+      "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans",
+      Meiryo,
+      sans-serif;
+  }
+
+.box {
+    position: relative;
+}
+.box p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px blue;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-image: url(../image/2735855_l.jpg) ;
+}
