@@ -1,26 +1,20 @@
 body {
-    font-family: "Helvetica Neue",
-      Arial,
-      "Hiragino Kaku Gothic ProN",
-      "Hiragino Sans",
-      Meiryo,
-      sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   }
 
 .box {
     position: relative;
 }
-.box p {
+h2 {
     position: absolute;
-    top: 0;
-    left: 0;
+    margin: 0% 5% 0% 5%;
+    padding: 1rem 3rem;
     font-size: 100px;
-    font-weight: bold;
-    color: white;
-    -webkit-text-stroke: 1px blue;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-right: 5%;
-    padding-left: 5%;
-    background-image: url(../image/2735855_l.jpg) ;
-}
+    text-shadow: 0 1px 0 #000, 0 3px 0 #000, 0 4px 10px rgba(0, 0, 0, .2);
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+    background-image: -webkit-linear-gradient(left, #0c82e2 0%, #68e0cf 100%);
+    background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
+  }
